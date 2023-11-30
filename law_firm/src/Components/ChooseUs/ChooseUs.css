@@ -32,7 +32,7 @@
     padding: 20px;
     width: 359px;
     height: 377px;
-    border: 1.4px;
+    border: 1.4px solid rgba(255, 255, 255, 0.1);
     border-radius: 14px;
     background-color: color-mix(in srgb, #1D1D1D 90%, #FFFFFF 10%);
 }

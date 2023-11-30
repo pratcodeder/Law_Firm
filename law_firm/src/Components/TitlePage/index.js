@@ -5,7 +5,7 @@ import Content from "./Content"
 export default () => {
     return (
        <div className="title-page">
-        <div>
+        <div className="section">
           <Header />  
           <Content />
         </div>
