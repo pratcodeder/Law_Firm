@@ -1,0 +1,50 @@
+.display-flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.section {
+    width: 1132px;
+    height: 174px;
+}
+
+.intro {
+    width: 387px;
+    height: 174px;
+}
+
+.intro h1 {
+    font-size: 54px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.line-img  img {
+    color: #6a6a6a;
+    border: 1px;
+   /* height:174px ; */
+}
+
+.disciption {
+    width: 475;
+    height: 155px;
+}
+
+.disciption h1 {
+    width: 249px;
+    height: 52px;
+    font-weight: 600;
+    size: 32px;
+    color: #ffffff;
+
+}
+
+.disciption p {
+    width: 475px;
+    height: 87px;
+    opacity: 30%;
+    font-weight: 500;
+    size: 18px;
+    /* color: #ffffff; */
+}
