@@ -1,0 +1,75 @@
+.display-flex {
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
+
+.tagline {
+   width: 571px;
+   height: 194px;
+
+}
+
+.h11 {
+    font-weight: 500 ;
+    font-size: 66px ;
+}
+
+.h12 {
+    font-weight: 700 ;
+    font-size: 66px ;
+}
+
+.discription {
+    width: 560px;
+    height: 99px;
+    opacity: 30%;
+}
+
+.discription p {
+    font-weight: 500 ;
+    font-size: 18px ;
+}
+
+.image {
+    width: 467.71px;
+    height: 544.71px; 
+}
+
+.email {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 438px;
+    height: 74px;
+    background-color: rgba(255,255,255,0.1);
+    /* opacity: 10%; */
+    border-radius: 43px;
+
+}
+.emailfield {
+    width: 224px;
+    height: 26px;
+    opacity: 20%;
+    padding-left: 30px;
+}
+
+.emailfield input {
+width: 190px;
+height: 26px;
+font-weight: 500;
+size: 16px;
+}
+
+.emailfield img {
+    width: 22px;
+    height: 22px;
+    margin-right: 9px;
+    
+    }
+
+.lets-talk {
+width: 137px;
+height: 37px;
+border-radius: 43px;
+}

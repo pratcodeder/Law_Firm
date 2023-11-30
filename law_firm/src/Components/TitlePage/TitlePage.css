@@ -1,0 +1,16 @@
+
+.title-page {
+    background-color:#111111 ;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+.section {
+    width: 1135px;
+    height: 636px;
+}
