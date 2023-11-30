@@ -13,6 +13,7 @@ line-height: 77.23px;
 }
 
 .card-grid {
+    padding-top: 40px;
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: 342px 342px 342px;
@@ -20,16 +21,29 @@ line-height: 77.23px;
     
 }
 
-.image {
+.gridImage {
     width: 752px;
     height: 342px;
     border-radius: 14px;
+    position: relative; 
+    color: white;
 }
 
-.image1 {
+.gridImage1 {
     width: 358px;
     height: 342px;
     border-radius: 14px;
+    position: relative; 
+    color: white;
+}
+
+.title {
+    position: absolute;
+    bottom: 7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 600;
+    size: 24px;
 }
 
 .img0 {
@@ -53,10 +67,10 @@ grid-column: 1/3;
     justify-self: end;  
 }
 
-div.image1:hover {
+div.gridImage1:hover {
     transform: scaleY(1.1);
 }
 
-div.image:hover {
+div.gridImage:hover {
     transform: scaleY(1.1);
 }
