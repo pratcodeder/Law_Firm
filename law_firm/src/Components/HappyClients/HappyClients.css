@@ -1,0 +1,95 @@
+.happyClients-section {
+    width: 1137px;
+    height: 626px;
+    border-radius: 14px;
+    padding-top: 90px;
+}
+
+.happyClients-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.happyClients-heading {
+    width: 374px;
+    height: 154px;
+ 
+}
+
+.happyClients-heading h1 {
+   
+    font-weight: 600;
+    size: 54px;
+  color: #ffffff;
+}
+
+
+.happyClients-buttons {
+width: 200px;
+height: 91.85px;
+display: flex;
+
+
+}
+
+.button-backForward {
+    width: 90.61px;
+    height: 90.61px;
+}
+
+.happyClients-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.single-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   padding: 20px;
+    width: 359px;
+    height: 368px;
+    border: 1.4px solid rgba(255, 255, 255, 0.1);
+    border-radius: 14px;
+    background-color: color-mix(in srgb, #1D1D1D 90%, #FFFFFF 10%);
+}
+
+div.single-card:hover {
+    background-color: color-mix(in srgb, #2E2E2E 90%, #FFFFFF 10%);
+   
+}
+
+.profile {
+    width: 105px;
+    height: 102px;
+}
+
+.name h1 {
+    /* width: 137px;
+    height: 24px; */
+    font-weight: 600;
+    size: 24px;
+    color: #ffffff;
+
+}
+
+.job-title {
+    width: 80px;
+    height: 24px;
+    font-weight: 400;
+    size: 14px;
+    color: #ffffff;
+
+}
+
+.reviews {
+    width: 293px;
+    height: 92px;
+    opacity: 30%;
+    font-weight: 500;
+    color: #ffffff;
+    size: 14px;
+}

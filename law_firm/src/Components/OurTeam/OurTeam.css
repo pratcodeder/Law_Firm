@@ -1,0 +1,100 @@
+.ourTeam-section {
+    width: 1156px;
+    height: 530px;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 80px;
+}
+
+
+.ourTeam-heading h1 {
+width: 253px;
+height: 77px;
+font-weight: 600;
+size: 54px;
+color: #ffffff;
+/* text-align: center; */
+}
+
+.ourTeam-profiles {
+color: #ffffff;
+
+display: grid;
+grid-template-columns:repeat(3, 385px) ;
+grid-template-rows: repeat(2, 125px);
+align-items: center;
+justify-items: center;
+}
+
+.hover-effect {
+    width: 344px;
+    height: 109px;
+    border-radius: 14px;
+    padding: 20px;
+    
+}
+.move-start {
+    justify-self: flex-start;
+}
+
+.move-center {
+    justify-self: center;
+}
+
+.move-end {
+    justify-self: end;
+}
+
+div.hover-effect:hover {
+    background-color: #E3B748;
+    
+}
+
+div.hover-effect:hover > .single-profile > .profile-info > h4 {
+    color: #373737;
+}
+
+
+div.hover-effect:hover > .single-profile > .profile-info > p {
+    color: #000000;
+   opacity: 40%; 
+}
+
+
+.single-profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 209px;
+    height: 68px;
+}
+
+.profile-img {
+width: 68px;
+height: 68px;
+}
+
+.profile-info {
+width: 119px;
+height: 54px;
+}
+
+.profile-info h4 {
+    width: 119px;
+    height: 24px;
+    font-weight: 600;
+    size: 24px;  
+
+    }
+
+    .profile-info p {
+        width: 69px;
+        height: 24px;
+        font-weight: 400;
+        size: 14px;  
+        opacity: 30%;
+    
+        }
