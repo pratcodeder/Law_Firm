@@ -7,6 +7,8 @@ import HappyClients from "./Components/HappyClients"
 import OurTeam from "./Components/OurTeam"
 import FAQ from "./Components/FAQ";
 import Subscribe from './Components/Subscribe';
+import Footer from './Components/Footer';
+
 function App() {
   return (
    <div className='page'>    
@@ -18,6 +20,7 @@ function App() {
     <OurTeam />
     <FAQ />
     <Subscribe />
+    <Footer />
    </div>
   );
 }
